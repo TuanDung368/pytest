@@ -1,4 +1,4 @@
-Flask>=2.3.0,<4.0.0
+Flask
 gunicorn # If you're deploying with Gunicorn
 pytest # If you're using pytest for testing
-Werkzeug==2.0.0
+Werkzeug
