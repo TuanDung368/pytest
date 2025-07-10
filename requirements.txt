@@ -1,2 +1,4 @@
-Flask==2.3.2
-pytest==7.4.0 # Thêm dòng này
+Flask>=2.3.0,<4.0.0
+gunicorn # If you're deploying with Gunicorn
+pytest # If you're using pytest for testing
+Werkzeug==2.0.0
