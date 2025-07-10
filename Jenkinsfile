@@ -10,7 +10,8 @@ pipeline {
     stages {
         stage('Checkout Source Code') {
             steps {
-                git 'https://github.com/TuanDung368/pytest.git'
+                
+                git branch: 'main', url: 'https://github.com/TuanDung368/pytest.git' // Thay đổi branch và URL
             }
         }
 
