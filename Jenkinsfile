@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Source Code') {
             steps {
-                git 'https://github.com/<Your_GitHub_Username>/my-flask-app.git'
+                git 'https://github.com/TuanDung368/pytest.git'
             }
         }
 
